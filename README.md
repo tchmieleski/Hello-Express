@@ -19,7 +19,7 @@ exports.someFunction = function(stuff) {
 ```
 
 
-The second form does not enable you to call the function within the same file, there is no local definition of the function.
+The second form does not enable you to call the function within the same file since the function has not been defined.
 
 In this example, in app.js, the exported functions sayHelloWorld1 and sayHelloWorld2 are called.
 
