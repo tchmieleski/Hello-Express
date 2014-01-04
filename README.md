@@ -1,9 +1,7 @@
 Hello-Express
 =============
 
-Hello World using the Express framework with Node.js
-
-Hello World app showing the difference between form 1
+Hello World app using the Express framework with Node.js to show the difference between two function forms: form 1
 
 ```
 var someFunction = function(stuff) {
