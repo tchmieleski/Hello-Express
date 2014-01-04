@@ -20,6 +20,9 @@ helloWorld.sayHelloWorld1();
 // hello world 2
 helloWorld.sayHelloWorld2();
 
+// hello world 3
+helloWorld.sayHelloWorld3();
+
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/views');
