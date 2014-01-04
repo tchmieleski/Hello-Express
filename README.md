@@ -18,7 +18,21 @@ exports.someFunction = function(stuff) {
 };
 ```
 
+
 The second form does not enable you to call the function within the same file, there is no local definition of the function.
+
+In this example, in app.js, the exported functions sayHelloWorld1 and sayHelloWorld2 are called.
+
+```
+// hello world
+var helloWorld = require('./routes/helloWorld');
+
+// hello world 1
+helloWorld.sayHelloWorld1();
+
+// hello world 2
+helloWorld.sayHelloWorld2();
+```
 
 When helloWorld2() is uncommented, the program crashes and the output looks as follows:
 
