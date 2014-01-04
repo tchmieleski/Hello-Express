@@ -3,7 +3,7 @@ Hello-Express
 
 Hello World using the Express framework with Node.js
 
-Hello World app showing the difference between 
+Hello World app showing the difference between form 1
 
 ```
 var someFunction = function(stuff) {
@@ -11,7 +11,7 @@ var someFunction = function(stuff) {
 exports.someFunction = someFunction;
 ```
 
-and
+and form 2
 
 ```
 exports.someFunction = function(stuff) {
@@ -27,10 +27,10 @@ In this example, in app.js, the exported functions sayHelloWorld1 and sayHelloWo
 // hello world
 var helloWorld = require('./routes/helloWorld');
 
-// hello world 1
+// hello world 1 (form 1 above)
 helloWorld.sayHelloWorld1();
 
-// hello world 2
+// hello world 2 (form 2 above)
 helloWorld.sayHelloWorld2();
 ```
 
