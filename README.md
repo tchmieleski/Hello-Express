@@ -18,10 +18,9 @@ exports.someFunction = function(stuff) {
 };
 ```
 
-The second form does not enable you to call the function within the same file, there is no local definition of the function
-Here is an example I just created:
+The second form does not enable you to call the function within the same file, there is no local definition of the function.
 
-so when the helloWorld2() is uncommented, the output of the program looks like this:
+When the helloWorld2() is uncommented, the program crashes and the output looks as follows:
 
 ```
 troy@Troys-MacBook-Pro ~/D/Hello-Express> node app
