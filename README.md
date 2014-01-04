@@ -20,7 +20,7 @@ exports.someFunction = function(stuff) {
 
 The second form does not enable you to call the function within the same file, there is no local definition of the function.
 
-When the helloWorld2() is uncommented, the program crashes and the output looks as follows:
+When helloWorld2() is uncommented, the program crashes and the output looks as follows:
 
 ```
 troy@Troys-MacBook-Pro ~/D/Hello-Express> node app
