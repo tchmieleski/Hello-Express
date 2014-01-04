@@ -21,16 +21,16 @@ exports.someFunction = function(stuff) {
 
 The second form does not enable you to call the function within the same file since the function has not been defined.
 
-In this example, in app.js, the exported functions sayHelloWorld1 and sayHelloWorld2 are called.
+In this example, in app.js, the exported functions sayHelloWorld1 (form 1) and sayHelloWorld2 (form 2) are called.
 
 ```
 // hello world
 var helloWorld = require('./routes/helloWorld');
 
-// hello world 1 (form 1 above)
+// hello world 1
 helloWorld.sayHelloWorld1();
 
-// hello world 2 (form 2 above)
+// hello world 2
 helloWorld.sayHelloWorld2();
 ```
 
